@@ -41,4 +41,4 @@ function SalesChart() {
   );
 }
 
-export default SalesChart;s
+export default SalesChart;

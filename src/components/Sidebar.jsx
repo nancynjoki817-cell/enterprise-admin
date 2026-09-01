@@ -46,9 +46,14 @@ function Sidebar() {
           📋 Reports
         </NavLink>
 
-        <a href="#settings">
+        <NavLink
+          to="/settings"
+          className={({ isActive }) =>
+            isActive ? "active" : ""
+          }
+        >
           ⚙️ Settings
-        </a>
+        </NavLink>
       </nav>
 
       <div className="sidebar-footer">
